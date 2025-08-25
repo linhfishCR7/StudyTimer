@@ -1,0 +1,35 @@
+{
+  "name": "studytimer",
+  "displayName": "Study Timer",
+  "version": "1.0.0",
+  "description": "Pomodoro timer and study session management with focus tracking and break reminders",
+  "main": "index.js",
+  "scripts": {
+    "build": "cordova build",
+    "build:android": "cordova build android",
+    "build:android:release": "cordova build android --release",
+    "run:android": "cordova run android",
+    "clean": "cordova clean",
+    "prepare": "cordova prepare",
+    "serve": "cordova serve"
+  },
+  "keywords": [
+    "cordova",
+    "phonegap",
+    "mobile",
+    "app",
+    "education",
+    "studytimer"
+  ],
+  "author": "LinhFish Development Team <dev@linhfish.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cordova": "^14.0.0"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {}
+  }
+}
